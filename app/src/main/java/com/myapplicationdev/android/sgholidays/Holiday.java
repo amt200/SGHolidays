@@ -35,4 +35,5 @@ public class Holiday {
     public void setImageID(int imageID) {
         this.imageID = imageID;
     }
+
 }
