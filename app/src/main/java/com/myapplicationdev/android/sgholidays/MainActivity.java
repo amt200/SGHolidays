@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add("Secular");
         arrayList.add("Ethnic & Religion");
 
-        arrayAdapter = new ArrayAdapter<String>(MainActivity.this, R.layout.row, arrayList);
+        arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, arrayList);
 
         lvCategories.setAdapter(arrayAdapter);
 

@@ -30,6 +30,8 @@ public class HolidayActivity extends AppCompatActivity {
         lvHolidays = findViewById(R.id.lvHolidays);
         holidayAdapter = new HolidayAdapter(HolidayActivity.this, R.layout.row, holidays);
 
+        lvHolidays.setAdapter(holidayAdapter);
+
         lvHolidays.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
